@@ -41,7 +41,7 @@ class FirstViewController: UIViewController {
         tempView.translatesAutoresizingMaskIntoConstraints = false
         view.addSubview(tempView)
         
-        self.tabBarController?.tabBar.isHidden = false
+        //self.tabBarController?.tabBar.isHidden = false
         
         
         
@@ -55,7 +55,7 @@ class FirstViewController: UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        self.tabBarController?.tabBar.isHidden = true
+        //self.tabBarController?.tabBar.isHidden = true
     }
     
     
@@ -127,6 +127,12 @@ class FirstViewController: UIViewController {
     
     @objc func clearTapped() {
         print("clear tapped")
+    }
+    
+    @IBAction func presentModalTapped(_ sender: Any) {
+        print("Present modal tapped!")
+        let modalViewController = ModalViewController()
+        self.tabBarController?.present(modalViewController, animated: true, completion: nil)
     }
 }
 

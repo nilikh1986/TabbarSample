@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B304A84E1FD08F7300B5957B /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B304A84D1FD08F7300B5957B /* ModalViewController.swift */; };
 		B373D3A71FABCC5200C8F217 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B373D3A61FABCC5200C8F217 /* AppDelegate.swift */; };
 		B373D3A91FABCC5200C8F217 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B373D3A81FABCC5200C8F217 /* FirstViewController.swift */; };
 		B373D3AB1FABCC5200C8F217 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B373D3AA1FABCC5200C8F217 /* SecondViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B304A84D1FD08F7300B5957B /* ModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
 		B373D3A31FABCC5200C8F217 /* TabbarSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabbarSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B373D3A61FABCC5200C8F217 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B373D3A81FABCC5200C8F217 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				B373D3A61FABCC5200C8F217 /* AppDelegate.swift */,
 				B373D3A81FABCC5200C8F217 /* FirstViewController.swift */,
 				B373D3AA1FABCC5200C8F217 /* SecondViewController.swift */,
+				B304A84D1FD08F7300B5957B /* ModalViewController.swift */,
 				B373D3AC1FABCC5300C8F217 /* Main.storyboard */,
 				B373D3AF1FABCC5300C8F217 /* Assets.xcassets */,
 				B373D3B11FABCC5300C8F217 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B304A84E1FD08F7300B5957B /* ModalViewController.swift in Sources */,
 				B373D3AB1FABCC5200C8F217 /* SecondViewController.swift in Sources */,
 				B373D3A71FABCC5200C8F217 /* AppDelegate.swift in Sources */,
 				B373D3A91FABCC5200C8F217 /* FirstViewController.swift in Sources */,
